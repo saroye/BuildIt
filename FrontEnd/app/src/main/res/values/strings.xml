@@ -1,0 +1,17 @@
+<resources>
+
+    <string name="app_name">Scout</string>
+    <string name="title_activity_sign_up">SignUp</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="Navgation">Nav</string>
+    <string name="title_message">Message</string>
+    <string name="title_account">Profile</string>
+
+    <string-array name="pages">
+        <item>MainActivity</item>
+        <item>ProfilePage</item>
+        <item>SignUp</item>
+    </string-array>
+</resources>

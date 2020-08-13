@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CreatePost"
+    android:background="@color/colorPrimaryDark">
+
+
+    <RelativeLayout
+        android:id="@+id/topBar"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        >
+
+        <ImageView
+            android:id="@+id/iconpostpage"
+            android:layout_width="75dp"
+            android:layout_height="match_parent"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/scouticon"
+            tools:layout_editor_absoluteY="16dp" />
+
+
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/topBar"
+        android:layout_marginHorizontal="25dp">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Project Name"
+            android:textSize="30dp"
+            android:gravity="center"
+            android:id="@+id/projectName"
+            android:textColor="@color/colorAccent"
+            android:textColorHint="@color/colorAccent"
+            android:layout_marginTop="20dp"
+
+            android:backgroundTint="@color/colorAccent"
+            />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/square_textbox"
+                android:id="@+id/attentionGrabber"
+                android:layout_marginTop="20sp"
+                android:hint="Attention Grabber"
+                android:textColor="@color/colorAccent"
+                android:textColorHint="@color/colorAccent"
+                android:gravity="top|left"
+                android:textSize="15dp"
+                android:maxLength="100"
+                android:padding="10dp"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:gravity="top|left"
+            android:padding="10dp"
+            android:id="@+id/projectDescription"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/square_textbox"
+            android:hint="Description"
+            android:textColorHint="@color/colorAccent"
+            android:textColor="@color/colorAccent"
+            android:autofillHints="image"
+            android:textSize="15dp"
+            />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:id="@+id/imageToUpload"
+                android:background="@drawable/square_textbox"
+                android:layout_marginTop="20dp"
+
+                />
+
+            <Button
+                android:id="@+id/bUploadImage"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:background="@color/colorAccent"
+                android:text="Upload Image"
+                android:textColor="@color/colorPrimaryDark" />
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/square_textbox"
+                android:id="@+id/compensation"
+                android:layout_marginTop="20sp"
+                android:hint="Compensation"
+                android:textColor="@color/colorAccent"
+                android:textColorHint="@color/colorAccent"
+                android:gravity="top|left"
+                android:textSize="15dp"
+                android:maxLength="100"
+                android:padding="10dp"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/square_textbox"
+                android:id="@+id/roles"
+                android:layout_marginTop="20sp"
+                android:hint="Roles Needed"
+                android:textColor="@color/colorAccent"
+                android:textColorHint="@color/colorAccent"
+                android:gravity="top|left"
+                android:textSize="15dp"
+                android:maxLength="100"
+                android:padding="10dp"/>
+
+            <Button
+                android:id="@+id/bCreatePost"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:background="@color/colorAccent"
+                android:text="Create Post"
+                android:textColor="@color/colorPrimaryDark" />
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>
