@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="BackEnd2/demo/.mvn/wrapper"/>
+	<classpathentry kind="src" path="BackEnd2/demo/src/main/java"/>
+	<classpathentry kind="src" path="BackEnd2/demo/src/test/java"/>
+	<classpathentry kind="src" path="experiments_ms/demo-2/.mvn/wrapper"/>
+	<classpathentry kind="src" path="experiments_ms/demo-2/src/main/java"/>
+	<classpathentry kind="src" path="experiments_ms/demo-2/src/test/java"/>
+	<classpathentry kind="src" path="experiments_ms/demo-3/.mvn/wrapper"/>
+	<classpathentry kind="src" path="experiments_ms/demo-3/src/main/java"/>
+	<classpathentry kind="src" path="experiments_ms/demo-3/src/test/java"/>
+	<classpathentry kind="src" path="experiments_ms/Springboot_testing/.mvn/wrapper"/>
+	<classpathentry kind="src" path="experiments_ms/Springboot_testing/src/main/java"/>
+	<classpathentry kind="src" path="experiments_ms/Springboot_testing/src/test/java"/>
+	<classpathentry kind="src" path="Experiments/Ismael/FrontEnd/app/src/androidTest/java"/>
+	<classpathentry kind="src" path="Experiments/Ismael/FrontEnd/app/src/main/java"/>
+	<classpathentry kind="src" path="Experiments/Ismael/FrontEnd/app/src/test/java"/>
+	<classpathentry kind="src" path="Experiments/Ismael/FrontEnd/Templates-CJF/test1/app/src/androidTest/java"/>
+	<classpathentry kind="src" path="Experiments/Ismael/FrontEnd/Templates-CJF/test1/app/src/main/java"/>
+	<classpathentry kind="src" path="Experiments/Ismael/FrontEnd/Templates-CJF/test1/app/src/test/java"/>
+	<classpathentry kind="src" path="FrontEnd/app/src/androidTest/java"/>
+	<classpathentry kind="src" path="FrontEnd/app/src/main/java"/>
+	<classpathentry kind="src" path="FrontEnd/app/src/test/java"/>
+	<classpathentry kind="src" path="Serverside/.mvn/wrapper"/>
+	<classpathentry kind="src" path="Serverside/src/main/java"/>
+	<classpathentry kind="src" path="Serverside/src/test/java"/>
+	<classpathentry kind="lib" path="BackEnd/demo2/target/demo-0.0.1-SNAPSHOT.jar"/>
+	<classpathentry kind="lib" path="experiments_ms/.metadata/.plugins/org.springframework.ide.eclipse.boot/installs/spring-boot-cli-2.1.6.RELEASE-bin/spring-2.1.6.RELEASE/lib/spring-boot-cli-2.1.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="Experiments/Ismael/FrontEnd/gradle/wrapper/gradle-wrapper.jar"/>
+	<classpathentry kind="lib" path="Experiments/Ismael/FrontEnd/Templates-CJF/test1/gradle/wrapper/gradle-wrapper.jar"/>
+	<classpathentry kind="lib" path="FrontEnd/app/libs/Client_Android_SocketExample_app_libs_java_websocket.jar"/>
+	<classpathentry kind="lib" path="FrontEnd/gradle/wrapper/gradle-wrapper.jar"/>
+	<classpathentry kind="lib" path="Serverside/bin/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="output" path="Serverside/target/classes"/>
+</classpath>
