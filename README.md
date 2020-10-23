@@ -1,3 +1,4 @@
-Build an free lancer job positng app. 4 Team Member (2 Frontend and 2 Backend)
+Build a free lancer job positng app. 4 Team Members (2 Frontend and 2 Backend)
 
-database is app_database
+Handled the front end to back end connections
+Handled the connection to database.
